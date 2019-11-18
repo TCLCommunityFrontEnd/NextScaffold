@@ -1,0 +1,30 @@
+.display-flex {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+.display-flex.flex-column {
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.display-flex.flex-middle{
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.flex-grow-1 {
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.bg-gradient(@from, @to, @direction:top){
+    background: -webkit-linear-gradient(@direction, @from, @to) !important;
+    background: -moz-linear-gradient(@direction, @from, @to) !important;
+    background: linear-gradient(@direction, @from, @to) !important;
+}
+.layout-shadow(){
+    -webkit-box-shadow: 0 0 10px 0 rgba(33,33,33,.2);
+    box-shadow: 0 0 10px 0 rgba(33,33,33,.2);
+}

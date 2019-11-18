@@ -1,0 +1,103 @@
+.icon_wrap{
+    display: inline-block;
+}
+.my-icon{
+    width:100%;
+    height:100%;
+}
+::selection{
+    color: white;
+    background: transparent;
+}
+.title_wrap{
+    width:100%;
+    height:40px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    div{
+        display: block;
+        width: 100%;
+        color: white;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+.selected_mask{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.video_icon{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-23.5px,-23.5px);
+    width:47px;
+    height:47px;
+}
+.imgContainer{
+    width:130px;
+    height:130px;
+    margin: 5px;
+    position: relative;
+    .icon_checkbox{
+        position: absolute;
+        left:8px;
+        top:6px;
+        height:17px;
+        width:17px;
+        display: none;
+    }
+    .iconBtnBar_bg{
+        width:100%;
+        height:40px;
+        position: absolute;
+        line-height: 40px;
+        left: 0;
+        bottom:0;
+        background: rgba(0, 0, 0, 0.3);
+        display: none;
+    }
+    .iconBtnBar{
+        width: 100%;
+        height:40px;
+        line-height: 40px;
+        display: flex !important;
+        justify-content:space-around;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: none;
+        .icon{
+            color: white;
+            font-size: 20px;
+            display: none;
+        }
+    }
+}
+.imgContainer:hover{
+    .icon_checkbox{
+        display: block;
+    }
+    // .iconBtnBar_bg{
+    //     background: rgba(0, 0, 0, 0.3);
+    //     display: block;
+    // }
+    // .iconBtnBar{
+    //     display: block;
+    //     .icon{
+    //         display: block;
+    //     }
+    //     .icon:hover{
+    //         color:rgba(255, 255, 255, 0.5);
+    //     }
+    // }
+}

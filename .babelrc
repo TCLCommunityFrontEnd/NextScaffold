@@ -1,0 +1,30 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["module-resolver",
+      {
+        "root":["."],
+        "alias":{
+          "utils":"./utils",
+          "less":"./less",
+          "actions":"./actions",
+          "components":"./components",
+          "configs":"./configs"
+        },
+        "stripExtensions": [".js", ".jsx", ".es", ".es6", ".mjs",".ts",".tsx"]
+      }
+    ],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "import", {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ]
+}

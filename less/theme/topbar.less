@@ -1,0 +1,137 @@
+@topbarColor:black;
+
+.topbarBg(){
+  background-color:@topbar-bgColor;
+}
+
+.ant-layout-header,.topbar{
+    height:@topbar-height !important;
+    line-height: @topbar-height !important;
+}
+.ant-dropdown-menu-item-group-list{
+    list-style: none !important;
+    padding-left: 0px;
+    .ant-dropdown-menu-item{
+        padding: 5px 30px;
+    }
+}
+
+//顶部栏
+.topbar {
+    z-index:0;
+    color: @topbarColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .custom-avatar{
+        width: 133px;
+        height:32px;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        border-radius: 15px;
+        color:#BECEE6;
+        span.userName{
+            line-height:32px;
+            padding-left: 8px;
+        }
+    }
+    .header-ul{
+        display: flex;
+        //width: 200px;
+        list-style: none;
+        padding-left: 10px;
+    }
+    .header-ul li {
+        flex-grow: 1;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .menu{
+        line-height: 2em;
+        padding: 0 10px;
+    }
+    .menu-group li{
+        padding: 0 24px;
+        line-height: 2em;
+    }
+
+   
+    .header-right{
+        // padding: 0 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .header-right-container{
+            line-height: @topbar-height;
+            float: right;
+            display:flex;
+            height: @topbar-height;
+            .header-right-item{
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+
+    &.ant-layout-header{
+        .topbarBg;
+        padding:10px 20px;
+    }
+
+    .brand{
+        font-size: 25px;
+        margin-right:28px;
+        float: left;
+        span{
+            color: white;
+            font-size: 18px;
+        }
+    }
+
+    .ant-menu-item{
+        padding:0 15px;
+        margin:0 10px;
+        color:#8AB5F1;
+        font-size:16px;
+    }
+
+    .ant-menu-item-selected,.ant-menu-item:hover{
+        color:white !important;
+        border-bottom: 2px solid white !important;
+    }
+
+    .ant-menu-horizontal{
+        float: left;
+        font-size: 18px;
+        // line-height: @layout-header-height - 2; //2为active border width
+        .topbarBg;
+        border-bottom: none;
+    }
+
+    .right{
+        float: right;
+
+        .action{
+            display: inline-block;
+            padding: 0 12px;
+            cursor: pointer;
+
+            &:hover{
+                background: lighten(@primary-color, 2%);
+            }
+        }
+    }
+}
+
+.topbar-right-ddl{
+    .ant-dropdown-menu-item {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+.ant-dropdown-link{
+    color: white;
+}
