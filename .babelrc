@@ -9,7 +9,8 @@
           "less":"./less",
           "actions":"./actions",
           "components":"./components",
-          "configs":"./configs"
+          "configs":"./configs",
+          "@ant-design/icons/lib/dist$":"./icons.js"
         },
         "stripExtensions": [".js", ".jsx", ".es", ".es6", ".mjs",".ts",".tsx"]
       }

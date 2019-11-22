@@ -9584,7 +9584,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/local/front-end/Next/next-scaffold/pages/_app.js";
+var _jsxFileName = "/local/sdb/Project/NextScaffold/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -9879,7 +9879,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/local/front-end/Next/next-scaffold/with-redux-store.js";
+var _jsxFileName = "/local/sdb/Project/NextScaffold/with-redux-store.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }

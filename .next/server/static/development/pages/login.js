@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _actions_app__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../actions/app */ "./actions/app.ts");
 var _dec,
     _class,
-    _jsxFileName = "/local/front-end/Next/next-scaffold/components/CustomComponent.tsx";
+    _jsxFileName = "/local/sdb/Project/NextScaffold/components/CustomComponent.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
@@ -567,7 +567,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/local/front-end/Next/next-scaffold/pages/login.tsx";
+var _jsxFileName = "/local/sdb/Project/NextScaffold/pages/login.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_11__["createElement"];
 
 
@@ -836,14 +836,14 @@ Axios.raw = function (method, url, params = {}, opts = {}) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/login.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /local/front-end/Next/next-scaffold/pages/login.tsx */"./pages/login.tsx");
+module.exports = __webpack_require__(/*! /local/sdb/Project/NextScaffold/pages/login.tsx */"./pages/login.tsx");
 
 
 /***/ }),

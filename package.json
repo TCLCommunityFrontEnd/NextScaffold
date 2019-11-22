@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development next",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production next start"
+    "start": "cross-env NODE_ENV=production next start",
+    "analyze": "cross-env ANALYZE=1 next build"
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.7.0",
@@ -25,7 +26,9 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "tcl-http-request": "^1.0.7"
+    "tcl-http-request": "^1.0.7",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "umi": "^2.8.18"
   },
   "license": "ISC",
   "devDependencies": {
